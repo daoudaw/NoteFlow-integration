@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playground</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b0ead5b3d5.js" crossorigin="anonymous"></script>
+    <!-- Tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script> 
+</head>
+
+<body>
+    <div class="container">
+        <header>
+        <p>
+            <a href="#"><img src="./assets/logo.png" alt="logo" class="logo"></a>
+        </p>
+
+        <nav>
+            <ul>
+                <li><a href="#">Fonctionnalités</a></li>
+                <li><a href="#">Tarifs</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="midle">
+        <div class="left">
+            <p>simple. rapide. Organisé.</p>
+            <h3>Organise tes
+                <br />
+                idées sans
+                <br />
+                effort</h3>
+
+            <div class="bts">
+                <button class="start">Commencer</button>
+                <button class="demo">Voir la démo</button>
+            </div>
+        </div>
+
+
+        <div class="right">
+            <span>Aujourd'hui</span>
+            <h4>Plan du projet</h4>
+            <p>Préparer une petite page d'acceuil propore et responsive.</p>
+
+            <input type="checkbox" id="ck1" name="ck1" value="maquette" checked>
+            <label for="ck1">Créer la maquette</label><br />
+
+            <input type="checkbox" id="ck2" name="ck2" value="page" checked>
+            <label for="ck2">Intégrer la page</label><br />
+
+            <input type="checkbox" id="ck3" name="ck3" value="responsive">
+            <label for="ck3">Tester le responsive</label><br />
+
+            <div class="progress">
+                <label for="progression">Progression</label>
+                <br />
+                <progress id="progression" value="75" max="100"></progress>
+                <br />
+                <span>75% terminé</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <img src="./assets/rapide.png" alt="eclair" />
+            <p>Rapide</p>
+            <p>Ajoute une idée en quelques secondes.</p>
+        </div>
+
+        <div class="card">
+            <img src="./assets/clair.png" alt="calendar" />
+            <p>Clair</p>
+            <p>Classe tes notes sans te perdre.</p>
+        </div>
+
+        <div class="card">
+            <img src="./assets/synchronise.png" alt="synchronisé" />
+            <p>Synchronisé</p>
+            <p>Retrouve tes contenus partout.</p>
+        </div>
+    </div>
+
+    <footer>Maquette desktop simple _ landing page d'entrainement HTML/CSS</footer>
+
+    </div>
+    
+ 
+
+    <script src="script.js"></script>
+</body>
+
+   
+</html>
+
